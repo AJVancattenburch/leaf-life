@@ -1,0 +1,185 @@
+:root {
+  --bg-primary: #fffcef;
+  --bg-accent: #c6dac3;
+  --text-shadow: 2px 2px 3px rgba(112, 112, 109, 0.333);
+}
+
+
+
+.bg-main {
+  background-color: var(--bg-primary);
+  text-shadow: var(--text-shadow);
+}
+.bg-accent {
+  background-color: var(--bg-accent);
+}
+.bg-light {
+  background-image: url("https://www.schemecolor.com/wallpaper?i=60268&og");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.bg-light {
+  --bs-bg-opacity: 1;
+}
+
+.logo {
+  height: 100%;
+  width: 50%;
+  object-fit: cover;
+  margin-right: 9px;
+  filter: drop-shadow(0px 0px 0px white);
+}
+img#logo {
+  filter: drop-shadow(5px 5px 10px rgb(46, 44, 44));
+  margin-bottom: 0;
+}
+
+.card {
+  border-radius: 0%;
+}
+.card.col-8 {
+  padding-top: 10px;
+  width: 60%;
+  line-height: 20px;
+}
+
+.img-1 {
+  height: 250px;
+  width: 100%;
+}
+.img-2 {
+  height: 200px;
+  width: 100%;
+}
+.img-3 {
+  height: 150px;
+  width: 100%;
+}
+img#user {
+  background-image: url("https://i.pinimg.com/originals/08/e7/ec/08e7ec0f84233b37ac26e920bc60ec57.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 75px;
+  width: 75px;
+}
+footer/img {
+  height: 25px;
+  width: 25px;
+}
+* img {
+  filter: drop-shadow(8px 8px 5px gray);
+}
+.img-define {
+  font-size: xx-small;
+  color: black;
+  font-weight: 400;
+  text-shadow: 1px 1px 2px var(--text-shadow);
+  margin-top: 3px;
+}
+section#image-row {
+  filter: drop-shadow(15px 15px 30px gray);
+}
+
+.down-size {
+  font-size: 12px;
+}
+.little-font {
+  font-size: 10px;
+}
+.text-grayscale {
+  color: #bcbcbc;
+  filter: drop-shadow(3px 3px 6px gray);
+}
+
+.fa-star {
+  color: gold;
+}
+
+.navbar {
+  --bs-navbar-toggler-padding-x: 0;
+}
+button.navbar-toggler {
+  color: var(--bg-primary);
+  line-height: 1.2;
+}
+button.navbar-toggler:hover {
+  font-stretch: condensed;
+  text-shadow: var(--text-shadow);
+  width: 18%;
+  overflow: visible;
+  transition: .5s;
+  margin-bottom: 3px;
+}
+.btn-home {
+  border: transparent;
+  background-color: var(--bg-primary);
+  padding: 6px;
+}
+.btn-home:hover {
+  background-color: rgb(203, 191, 175);
+  transition: 1s;
+}
+
+.search-click {
+  border: 1px solid #cccccc;
+  outline: none;
+  background-size: 22px;
+  background-position: absolute;
+  border-radius: 10px;
+  width: 25px;
+  height: 20px;
+  padding: 15px;
+  right: 0;
+  top: 0;
+  overflow: hidden;
+  transition: all 0.5s;
+}
+.search-click:focus {
+  width: 300px;
+  padding-right: 50px;
+  background-position: right;
+}
+.search-click input {
+  background: transparent;
+  border: 1px solid #cccccc;
+  outline: none;
+  position: absolute;
+  width: 300px;
+  height: 20px;
+  right: 0;
+  padding: 10px;
+}
+
+.navbar {
+  --bs-navbar-toggler-padding-y: 0;
+}
+.nav-item,::after,::before {
+  box-sizing:content-box;
+  flex-wrap: wrap;
+}
+
+form {
+  width: 85%;
+  background-size: cover;
+  position: absolute;
+  bottom: 0;
+  left: 15%;
+}
+form#search-tree {
+  background-color: var(--bg-primary);
+  width: 83%;
+}
+input {
+  background-image: url("https://cdn1.iconfinder.com/data/icons/hawcons/32/698627-icon-111-search-512.png");
+  background-size: 0px;
+  background-repeat: no-repeat;
+  position:sticky;
+  right: 0;
+  top: 0;
+}
+
+footer {
+  height: 200px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
